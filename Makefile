@@ -14,4 +14,3 @@ pull:
 deploy: pull
 	docker compose build
 	docker compose up -d
-	docker compose exec nginx nginx -s reload
