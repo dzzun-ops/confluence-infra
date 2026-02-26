@@ -85,4 +85,4 @@ volumes:
 
 networks:
   internal:
-    internal: true
+    driver: bridge
